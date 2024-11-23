@@ -63,7 +63,7 @@ jobs:
           - name: FastLED
         cli-compile-flags: |
           - --export-binaries
-          - --verbose
+          - --warning none
         sketch-paths: |
           - listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom
         enable-deltas-report: true
