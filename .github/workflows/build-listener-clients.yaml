@@ -62,7 +62,8 @@ jobs:
           - name: Arduino_JSON
           - name: FastLED
         cli-compile-flags: |
-          - --warnings "none"
+          - --export-binaries
+          - --verbose
         sketch-paths: |
           - listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom
         enable-deltas-report: true
