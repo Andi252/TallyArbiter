@@ -32,7 +32,6 @@ jobs:
           - name: Arduino_JSON
         cli-compile-flags: |
           - --export-binaries
-          - --warnings none
         sketch-paths: |
           - listener_clients/m5stickc-listener
         enable-deltas-report: true
@@ -64,6 +63,7 @@ jobs:
           - name: FastLED
         cli-compile-flags: |
           - --export-binaries
+          - --warnings none
         sketch-paths: |
           - listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom
         enable-deltas-report: true
