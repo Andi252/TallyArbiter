@@ -49,7 +49,7 @@ jobs:
     - uses: arduino/compile-sketches@v1
       with:
         platforms: |
-          - name: m5stack:m5stack_atom
+          - name: M5Stack:esp32
             source-url: https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json
         fqbn: 'm5stack:esp32:m5stack_atom'
         libraries: |
