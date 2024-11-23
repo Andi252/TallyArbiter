@@ -32,6 +32,7 @@ jobs:
           - name: Arduino_JSON
         cli-compile-flags: |
           - --export-binaries
+          - --warnings none
         sketch-paths: |
           - listener_clients/m5stickc-listener
         enable-deltas-report: true
@@ -55,6 +56,7 @@ jobs:
         libraries: |
           - name: M5Atom
           - name: WebSockets
+            version: 2.3.4
           - name: SocketIoClient
           - name: WiFiManager
           - name: MultiButton
@@ -62,7 +64,6 @@ jobs:
           - name: FastLED
         cli-compile-flags: |
           - --export-binaries
-          - --warnings "default"
         sketch-paths: |
           - listener_clients/M5AtomMatrix-listener/tallyarbiter-m5atom
         enable-deltas-report: true
