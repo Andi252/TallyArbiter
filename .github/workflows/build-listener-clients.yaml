@@ -72,7 +72,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: 'TallyArbiter-Listener-M5Atom'
-        path: 'tallyarbiter-m5atom*'
+        path: 'sketch/*'
 
   build_esp32-neopixel-listener:
     name: Build ESP32 NeoPixel Listener
